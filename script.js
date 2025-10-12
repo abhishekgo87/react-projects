@@ -45,7 +45,7 @@
 //   i++
 // }
 // console.log(arr)
-// let arr =[1  ,2 , 3 , 4, 5] 
+// let arr =[1  ,2 , 3 , 4, 5]
 // let copy = arr[0];
 // for ( i = 0; i<arr.length-1; i++) {
 //      arr[i] = arr[i+1];
@@ -59,19 +59,26 @@
 // for (i < arr.length-1;  i>0; i--) {
 
 // }
-let arr = [1 ,2 ,3 ,4 ,5]
+// let arr = [1 ,2 ,3 ,4 ,5]
 
-for (let j = 0; j <2; j++){
-    let copy = arr[0]
-    for(let i = 0; i <arr.length-1; i++){
-       arr[i] = arr[i+1];
+// for (let j = 0; j <2; j++){
+//     let copy = arr[0]
+//     for(let i = 0; i <arr.length-1; i++){
+//        arr[i] = arr[i+1];
 
-    }
-    arr[arr.length-1] = copy;
+//     }
+//     arr[arr.length-1] = copy;
 
-}
-console.log(arr)
+// }
+// console.log(arr)
 
-
-
- 
+var maxProfit = function (prices) {
+  let maxProfit = 0;
+  let min = prices[0];
+  for (let i = 0; i < prices.length; i++) {
+    if ((arr[i], min)) min = arr[i];
+    let profit = arr[i] - min;
+    maxProfit = Math.max(maxProfit, profit);
+  }
+  return maxProfit;
+};
