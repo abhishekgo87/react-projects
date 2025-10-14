@@ -27,10 +27,10 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
         >
           <a
             href="#"
-            className={`nav-link ${
+            className={`nav-link  ${
               selectedTab === "Home"
-                ? "bg-primary text-white"
-                : "text-white"
+                ? "bg-primary text-white  "
+                : "text-white "
             }`}
           >
             <svg
@@ -55,7 +55,7 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
             }`}
           >
             <svg
-              className="bi pe-none me-2"
+              className="bi pe-none me-2 "
               width="16"
               height="16"
               aria-hidden="true"
