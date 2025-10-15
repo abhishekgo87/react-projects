@@ -1,7 +1,7 @@
-.app-container{
+.app-container {
   display: flex;
-
 }
+
 .content {
   width: 100%;
 }
@@ -12,7 +12,6 @@
 
 .post-card {
   margin: 20px 50px;
-
 }
 
 .hashtag {
@@ -20,7 +19,6 @@
 }
 
 .reactions {
-  
   margin: 15px 0 0 0;
 }
 
