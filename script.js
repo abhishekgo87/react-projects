@@ -72,13 +72,25 @@
 // }
 // console.log(arr)
 
-var maxProfit = function (prices) {
-  let maxProfit = 0;
-  let min = prices[0];
-  for (let i = 0; i < prices.length; i++) {
-    if ((arr[i], min)) min = arr[i];
-    let profit = arr[i] - min;
-    maxProfit = Math.max(maxProfit, profit);
+// var maxProfit = function (prices) {
+//   let maxProfit = 0;
+//   let min = prices[0];
+//   for (let i = 0; i < prices.length; i++) {
+//     if ((arr[i], min)) min = arr[i];
+//     let profit = arr[i] - min;
+//     maxProfit = Math.max(maxProfit, profit);
+//   }
+//   return maxProfit;
+// };
+function searchE1() {
+  let data = [30 , 13 , 45 , 78, 2 , 9 , 5 , 50];
+  let pos = undefined;
+
+  for (let i = 0; i<= data.length; i++) {
+    if (data [i] == find){
+      pos = i;
+      break;
+    }
   }
-  return maxProfit;
-};
+  console.warn(pos)
+}
