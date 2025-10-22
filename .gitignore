@@ -33,4 +33,6 @@ Thumbs.db
 /coverage/
 
 # TypeScript
-*.tsbuildinfo
+*.tsbuildinfo 
+5-note-app
+*5-note-app
