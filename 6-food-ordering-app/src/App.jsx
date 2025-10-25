@@ -7,6 +7,11 @@ import Error from "./Pages/Error";
 
 const App = () => {
   return ( 
+   
+    
+
+
+
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
@@ -15,6 +20,11 @@ const App = () => {
       
     </Routes>
  </BrowserRouter>
+      
+    
+   
+      
+
 );
 };
 
